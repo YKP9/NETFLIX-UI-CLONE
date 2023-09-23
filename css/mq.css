@@ -1,0 +1,201 @@
+/* MEDIA QUERIES  */
+/* FIRST BREAKPOINT */
+@media only screen and (max-width: 1024px){
+    
+    .container{
+        max-width: 976px;
+        margin-inline: auto;
+    }
+   .header-section{
+    padding: 0px 3%;
+    height: 85vh;
+   }
+
+   
+    .nav-header{
+        width: 976px;
+    }
+    .btns{
+        gap: 25px;
+        margin-right: 35px;
+    }
+    .eng select{
+        padding: 5px 20px;
+    }
+
+    .sign-in{
+        padding: 5px 15px
+    }
+
+    .heading-1{
+        width: 960px;
+        font-size: 1.5rem;
+        font-weight: 900
+    }
+    .right-img img{
+        width: 474px;
+      }
+    
+    }
+
+/* SECOND BREAKPOINT */
+      @media only screen and (max-width: 768px){
+        .container{
+            max-width: 704px;
+            margin-inline: auto;
+        }
+        .header-section{
+            height:75vh ;
+        }
+
+        .logo img {
+            width: 89px;
+          }
+        .nav-header{
+            width: 712px;
+        }
+
+        .eng select{
+            padding: 3px 20px;
+        }
+    
+        .sign-in{
+            padding: 3px 15px
+        }
+        .header-section{
+            width: 100vw;
+        }
+        .heading-1{
+            width: 704px;
+            font-size: 1rem;
+            font-weight: 700
+        }
+        .heading-3 h3 {
+            font-size: 18px;
+            font-weight: 400;
+          }
+          .para p {
+            font-size: 18px;
+            font-weight: 400;
+          }
+
+          .email-id{
+         width: 50%;
+          }
+          .primary-button{
+            width: 30%;
+          }
+          .center-header{
+            margin-top: 140px;
+          }
+          .feature1-container{
+            flex-direction: column;
+            text-align: center;
+            
+          }
+
+          .feature-heading{
+            font-size: 32px;
+          }
+
+          .left-text p{
+            font-size: 18px;
+          }
+          .left-text{
+            height: 30%;
+            width: 100%;
+          }
+          .right-img{
+            height: 70%;
+            width: 100%;
+         }
+         .right-img img{
+            width: 640px;
+            
+          }
+          .feature4-container{
+            flex-direction: column-reverse;
+            text-align: center;
+          }
+          .faq-heading h2{
+            font-size: 32px;
+          }
+
+          .small small{
+            font-size: 18px;
+          }
+          .box-1{
+            flex-direction: column;
+            gap: 10px;
+          }
+          .box-2{
+            flex-direction: column;
+            gap: 10px;
+          }
+          .footer-list a{
+            font-size: 14px;
+          }
+      }
+      
+/* THIRD BREAKPOINT */
+      @media only screen and (max-width: 425px){
+        .container{
+          max-width: 377px;
+          margin-inline: auto;
+        }
+        .nav-header{
+          width: 385px;
+      }
+      .header-section{
+        width: 100vw;
+      }
+      .heading-1{
+        width: 377px;
+        font-weight: 400;
+      }
+      .right-img img{
+        width: 377px;
+        
+      }
+      .get-started{
+        flex-direction: column;
+      }
+      .header-section{
+        height:80vh ;
+    }
+    .primary-button{
+      width: 50%;
+      font-size: 18px;
+      text-align: center;
+    }
+    .email-id{
+      width: 85%;
+    }
+    .heading-3 h3{
+      text-align: center;
+    }
+    .center-header{
+      margin-bottom: 500px;
+    }
+    .feature1-container{
+      gap: 50px;
+    }
+    .feature4-container{
+      gap: 50px;
+    }
+    .small small{
+      text-align: center;
+    }
+    .faq-heading h2{
+text-align: center;
+    }
+    .eng  select{
+      padding: 5px 5px;
+    }
+    .btns{
+      gap: 10px;
+      margin-right: 10px;
+  }
+ }
+    
+

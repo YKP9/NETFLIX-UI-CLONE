@@ -1,0 +1,354 @@
+/* CSS RESETS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: #000000;
+  color: #ffffff;
+  /* overflow: hidden; */
+  overflow-x: hidden; 
+}
+
+/* UTILITY CLASS */
+.container {
+  max-width: 1104px;
+  margin-inline: auto;
+  /* overflow-x: hidden; */
+}
+
+/* HEADER */
+.header-section {
+  width: 100vw;
+  height: 75vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url(../img/h-img.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 10px 8%;
+}
+.nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+.logo {
+  cursor: pointer;
+}
+.logo img {
+  width: 148px;
+}
+.btns {
+  display: flex;
+  gap: 20px;
+}
+
+.eng  select{
+  border: 0.5px solid rgba(48, 42, 42, 0.479);
+  border-radius: 5px;
+  padding: 10px 30px;
+  color: white;
+  background-color: #111010;
+  line-height: 14px;
+  font-size: 14px;
+  outline: 3px solid white;
+  outline-offset: 1px;
+  text-shadow: 1px 1px 1px #000;
+  cursor: pointer;
+}
+
+.sign-in {
+  border: 0;
+  border-radius: 5px;
+  padding: 7px 20px;
+  color: white;
+  background-color: #e50914;
+  line-height: 14px;
+  font-size: 14px;
+  text-shadow: 1px 1px 1px #000;
+  cursor: pointer;
+}
+.sign-in:hover {
+  background-color: rgb(174, 29, 29);
+}
+
+/* .styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow:
+      inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+      inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  }
+  
+  .styled:hover {
+    background-color: rgba(255, 0, 0, 1);
+  }
+  
+  .styled:active {
+    box-shadow:
+      inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+      inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+  } */
+
+.center-header {
+  margin-top: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+.heading-1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+}
+.para p {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.heading-3 h3 {
+  font-size: 20px;
+  font-weight: 400;
+}
+.get-started {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.email-id {
+  padding: 15px 5px 15px 20px;
+  width: 35%;
+  border: 0.5px solid grey;
+  border-radius: 5px;
+  color: #ffffff;
+
+  background-color: #101010;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  transition: all 0.5s ease-out;
+  cursor: pointer;
+
+}
+.email-id:hover{
+  font-size:10px ;
+  }
+
+
+.primary-button {
+  padding: 15px 5px 15px 20px;
+  width: 20%;
+  border: 0.5px solid grey;
+  border-radius: 5px;
+  color: #ffffff;
+
+  background-color: rgba(255, 0, 0, 1);
+
+  
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 500;
+  cursor:pointer;
+}
+.primary-button:hover {
+  background-color: rgb(174, 29, 29);
+}
+
+/**************** Feature-1 *******************/
+.feature-1{
+  border-top: 7px solid #232323;
+  
+}
+.feature1-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-block: 70px;
+}
+.left-text{
+  width: 50%;
+}
+.feature-heading{
+  font-size: 40px;
+  font-weight: 900;
+  width: 100%;
+  margin-bottom: 10px;
+  
+}
+.feature-para{
+font-size: 24px;
+font-weight: 400;
+}
+.right-img{
+width: 50%;
+}
+.right-img img{
+  width: 546px;
+}
+
+.feature4-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-block: 70px;
+}
+
+
+/**************** FAQ *******************/
+.faq{
+  border-top: 7px solid #232323;
+  
+ }
+.faq-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 75px;
+}
+.faq-heading{
+  font-size: 2rem;
+  font-weight: 900;
+}
+.accordian{
+  /* max-width: 750px; */
+  width: 100%;
+  margin: 60px 0;
+  
+  /* text-align: center; */
+}
+.accordian ul{
+text-align: left;
+}
+.accordian ul li{
+  list-style: none;
+  width: 100%;
+  padding: 5px;
+}
+.accordian li label{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  background: #303030;
+  margin-bottom: 2px;
+  cursor: pointer;
+  position: relative;
+}
+label::after{
+  content: '+';
+  font-size: 34px;
+  position: absolute;
+  right: 20px;
+  transition: transorm 1s;
+
+}
+input[type="radio"] {
+  display: none;
+}
+
+.acc-content{
+  background: #303030;
+  padding: 0 20px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s , padding 1s;
+}
+
+input[type="radio"]:checked + label + .acc-content{
+  max-height: 600px;
+  padding: 30px 20px;
+}
+
+input[type="radio"]:checked + label::after{
+  transform: rotate(135deg);
+}
+
+.small{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+
+.small small{
+  font-size: 20px;
+  font-weight: 400;
+}
+
+
+/**************** FOOTER *******************/
+
+footer{
+  border-top: 7px solid #232323;
+  margin-top: 75px;
+}
+.footer-container{
+  margin-top: 75px;
+
+}
+.footer-container span{
+  color: #b3b0ad;
+}
+.footer-list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 25px 0 ;
+  /* flex-direction: column; */
+  
+  /* max-height: 136px; */
+}
+.cols{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.box-1{
+  display: flex;
+  width: 50%;
+  gap: 100px;
+}
+.box-2{
+display: flex;
+gap: 100px;
+width: 50%;
+}
+
+.footer-list a{
+  list-style: none;
+  text-decoration: underline;
+  color: #b3b0ad;
+}
+.footer-container .sub-foot{
+  margin-top: 20px;
+  margin-bottom: 50px;
+  color: #b3b0ad; ;
+
+}
+
+
+
+
+
